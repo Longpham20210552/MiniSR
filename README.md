@@ -16,12 +16,4 @@ An automatic speech recognition (ASR) system built on a **SqueezeFormer** acoust
 - **CTC training**, **beam search decoding**, optional **KenLM** for LM fusion.
 - Reproducible **training/validation/test loops** with WER tracking & plots.
 
----
 
-## Installation
-
-```bash
-# Python 3.9+ recommended
-python -m venv .venv
-source .venv/bin/activate        # (Windows) .venv\Scripts\activate
-pip install -r requirements.txt  # tensorflow, datasets, tqdm, matplotlib, sentencepiece, kenlm, etc.
